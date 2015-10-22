@@ -1,0 +1,16 @@
+{
+    "name": "test",
+    "description": "php lesons",
+    "authors": [
+        {
+            "name": "Ruslan Koval",
+            "email": "ruslan.koval21@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "toysBoys\\": "files/toysBoys"
+        }
+    },
+    "minimum-stability": "dev"
+}
