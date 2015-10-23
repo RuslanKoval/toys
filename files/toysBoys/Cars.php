@@ -9,12 +9,28 @@ class Cars extends AbstractToys{
 
     protected $materials;
 
+    protected $params = [];
+
+    /**
+     * Cars constructor.
+     * @param $name
+     * @param $age
+     * @param $materials
+     */
+    public function __construct($params = [])
+    {
+        foreach ($params as $key => $value) {
+            $this->params[$key] = $value;
+        }
+    }
+
     /**
      * @return mixed
      */
     public function getName()
     {
         return $this->name;
+
     }
 
     /**

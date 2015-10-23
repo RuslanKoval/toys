@@ -10,6 +10,8 @@ abstract class AbstractToys{
     public abstract function getMaterials();
     public abstract function setMaterials($Materials);
 
+
+
     public function __toString()
     {
         $data = '';
